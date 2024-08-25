@@ -1,0 +1,18 @@
+/* src/component/CustomInput.css */
+.custom-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.custom-input:focus {
+  border-color: #007bff;
+}
+
+.custom-input.disabled {
+  background-color: #f8f9fa;
+  cursor: not-allowed;
+}
